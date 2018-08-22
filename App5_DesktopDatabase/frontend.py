@@ -16,7 +16,7 @@ from tkinter import *
 import backend
 
 
-# Must start a GUI-program with the following line
+# Must start a GUI-program with the following line!!!
 window = Tk()
 
 window.wm_title('BookStore')
@@ -115,5 +115,5 @@ b6 = Button(window, text="Lukk", width=12, command=window.destroy)
 b6.grid(row=7, column=3)
 
 
-# and must end the program with this line...
+# and must end the program with this line... :)
 window.mainloop()
